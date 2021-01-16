@@ -26,6 +26,11 @@ class Employee {
     getRole() {
         return 'Employee';
     }
+}
+
+
+
+module.exports = Employee
 
 
 
@@ -41,51 +46,3 @@ class Employee {
 
 
 
-
-
-
-
-
-// var dog = {
-//     name: "wolfy",
-//     haircolor: "brown"
-// }
-
-// var cat = {
-//     name: "meow",
-//     haircolor: "black"
-// }
-
-// class Food {
-//     constructor(type, brand) {
-//         this.type = type
-//         this.brand = brand
-//     }
-//     getType() {
-//         return this.type
-//     }
-//     getBrand() {
-//         return this.brand
-//     }
-// }
-
-// class Animal extends Food {
-//     constructor(name, haircolor, type, brand) {
-//         super(type, brand) //food constructor
-//         this.name = name
-//         this.haircolor = haircolor
-//     }
-//     getName() {
-//         return this.name
-//     }
-//     getHaircolor() {
-//         return this.haircolor
-//     }
-// }
-
-// var dog = new Animal("wolfy", "brown", "dog", "purina")
-// console.log(dog.getName(), dog.getBrand())
-
-// var cat = new Animal("meow", "black", "cat", "Iams")
-
-// console.log()
